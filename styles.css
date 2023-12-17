@@ -1,0 +1,307 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("bkv.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    /* background-color: linear-gradient(to bottom right, rgb(9rgb(0, 255, 234)255), yellow); */
+    /* background-color: aqua; */
+
+}
+
+.Registr button {
+
+    color: aliceblue;
+    background-color: rgb(231, 154, 12);
+    font-size: 20px;
+    height: 45px;
+    width: 120px;
+    border-radius: 25px;
+    /* box-shadow: 2px -1px 16px rgb(231, 154, 12); */
+    box-shadow: 2px -1px 16px rgb(231, 198, 12);
+    border-color: orangered;
+}
+
+.bla a {
+    color: aliceblue;
+    font-size: 40px;
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    cursor: default;
+}
+
+.navbar {
+    position: relative;
+    top: -30px;
+    left: 355px;
+}
+
+.navbar a {
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 80px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.navbar a:hover {
+    /* font-size: 22px; */
+    color: goldenrod;
+    text-shadow: 0 0 10px gold;
+    /* background-color: rgb(25, 0, 255); */
+}
+
+.Registr {
+    position: relative;
+    right: -1130px;
+    top: -55px;
+
+}
+
+.Registr button {
+    cursor: pointer;
+}
+
+.para {
+    position: relative;
+    top: 141px;
+    left: 534px;
+}
+
+.para p1 {
+    position: relative;
+    left: 60px;
+    font-size: 22px;
+    color: aliceblue;
+}
+
+.para p2 {
+    position: relative;
+    right: 110px;
+    /* justify-content: center; */
+    /* text-align: center; */
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.para p3 {
+    position: relative;
+    left: 25px;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.trip {
+    position: relative;
+    bottom: -181px;
+    left: 560px;
+    /* height: 45px; */
+}
+
+.trip button {
+    height: 45px;
+    width: 160px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: rgb(231, 154, 12);
+    box-shadow: 2px -1px 16px rgb(231, 198, 12);
+    border-color: orangered;
+}
+
+.trip button:hover {
+    cursor: pointer;
+}
+
+.abt-section {
+    height: 900px;
+}
+
+.Abt {
+    /* height: 900px; */
+    position: relative;
+    top: 257px;
+    left: 139px;
+    /* background-color: blue; */
+}
+
+.Abt p5 {
+    color: rgb(30, 186, 225);
+    text-shadow: 0 0 1px aqua;
+    font-size: 44px;
+    position: relative;
+    right: -264px;
+    top: -80px;
+}
+
+.Abt p6 {
+    /* color: rgb(94, 165, 227); */
+    /* color: aliceblue; */
+    color: rgb(236, 239, 239);
+    position: relative;
+    left: 250px;
+    font-size: 19px;
+    top: -40px;
+}
+
+.Abt img {
+    position: relative;
+    /* top: 200px; */
+    top: 150px;
+    border-radius: 500px;
+    height: 300px;
+    box-shadow: 0 0 67px rgb(0, 238, 255);
+    right: 18px;
+    /* image-resolution:inherit; */
+    /* border-color: blue; */
+    /* border-width: 90px; */
+}
+
+.abt-section button {
+    height: 50px;
+    width: 120px;
+    color: aliceblue;
+    background-color: rgb(30, 186, 225);
+    position: relative;
+    right: -656px;
+    top: 232px;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgb(0, 238, 255);
+    font-size: 17px;
+    cursor: pointer;
+    border-color: blue;
+
+}
+
+.services {
+    /* background-color: aqua; */
+}
+
+.services p7 {
+    /* height: 900px; */
+    color: rgb(17, 136, 239);
+    position: relative;
+    top: 140px;
+    left: 587px;
+
+}
+
+.b1 button {
+    position: relative;
+    top: 38px;
+    left: 137px;
+    height: 53px;
+    width: 156px;
+    border-radius: 106px;
+    font-size: 20px;
+    background-color: greenyellow;
+    color: aliceblue;
+    box-shadow: 1px 0 137px greenyellow;
+    border-color: green;
+    cursor: pointer;
+}
+
+.b2 button {
+    position: relative;
+    top: -17px;
+    left: 567px;
+    height: 53px;
+    width: 156px;
+    border-radius: 106px;
+    font-size: 20px;
+    background-color: greenyellow;
+    color: aliceblue;
+    box-shadow: 1px 0 137px greenyellow;
+    border-color: green;
+    cursor: pointer;
+}
+
+.b3 button {
+    position: relative;
+    top: -71px;
+    left: 954px;
+    height: 53px;
+    width: 156px;
+    border-radius: 106px;
+    font-size: 20px;
+    background-color: greenyellow;
+    color: aliceblue;
+    box-shadow: 1px 0 137px greenyellow;
+    border-color: green;
+    cursor: pointer;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #881247;
+    color: rgb(255, 255, 255);
+}
+.logos a1 {
+    border-radius: 15px;
+    /* border-color: #f27a39; */
+    border: .15em solid orange;
+    box-shadow: 0 0 10px orange;
+    position: relative;
+  bottom: 65px;
+  left: 40px;
+  height: 39px;
+  width: 38px;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.logos a2 {
+    border-radius: 15px;
+    /* border-color: #f27a39; */
+    border: .15em solid orange;
+    box-shadow: 0 0 10px orange;
+    height: 39px;
+  width: 38px;
+  position: relative;
+  bottom: 3px;
+  right: 7px;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.logos a3 {
+    border-radius: 15px;
+    /* border-color: #f27a39; */
+    border: .15em solid orange;
+    box-shadow: 0 0 10px orange;
+    height: 39px;
+  width: 38px;
+  position: relative;
+  right: 52px;
+  top: 56px;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.logos{
+    position: relative;
+  left: 1150px;
+
+}
+
+.foot {
+    background-color: #383636;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 33px;
+    color: whitesmoke;
+}
