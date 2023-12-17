@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    /* background: rgb(32,32,32); */
+    background-image: linear-gradient(to bottom right, black, rgb(62, 59, 59));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #00FF00;
+    /* Green color for the raindrops */
+    font-family: 'Courier New', monospace;
+}
+
+.matrix-rain {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.matrix-char {
+    position: absolute;
+    font-size: 16px;
+    animation: animateMatrix 0.5s linear infinite;
+}
+
+@keyframes animateMatrix {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(100vh);
+    }
+}
+
+
+
+
+.center {
+    text-align: center;
+    font-size: 43px;
+    color: rgb(237, 245, 235);
+    text-shadow: 0 0 12px rgb(48, 235, 31);
+    position: absolute;
+    margin-bottom: 550px;
+}
+
+.mx-auto {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.container {
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    /* text-decoration:dotted */
+
+}

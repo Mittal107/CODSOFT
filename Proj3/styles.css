@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Rubik+Doodle+Shadow&display=swap');
+
+html,body{
+    /* font-family: Rubik+Doodle+Shadow;
+     */
+     /* <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet"> */
+     font-family: 'Nunito','Rubik','Doodle','Shadow' ;
+
+}
+.button{
+    padding: 20px;
+    margin:5px 5px;
+    border: 2px solid rgb(77, 233, 42);
+    border-radius: 19px;
+    cursor: pointer;
+    background: rgb(81, 78, 78);
+  color: aliceblue;
+  box-shadow: 0 0 10px rgb(47, 255, 102);
+}
+.row input{
+    margin-bottom: 13px;
+    padding: 13px 3px;
+    border: 2px solid rgb(86, 235, 57);
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: rgb(81, 78, 78);
+    color: aliceblue;
+    box-shadow: 0 0 10px rgb(47, 255, 102);
+}
