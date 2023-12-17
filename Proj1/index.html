@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <pre><h2> <b>  Kavya Mittal</b> </h2></pre>
+        <div class="topnav">
+            <a class="active" href="#home"><b>Home</b></a>
+            <a href="#about"><b>About</b></a>
+            <a href="#skills"><b>Skills</b></a>
+            <a href="#projects"><b>Projects</b></a>
+            <a href="#contact"><b>Contact</b></a>
+        </div>
+    </header>
+    <div class="cartoon">
+        <img src="img.avif">
+    </div>
+    <div class="faltu"></div>
+
+    <div class="para" id="home">
+        <p1>Hello, It's Me!</p1>
+        <br>
+        <br>
+        <p2>KAVYA MITTAL</p2>
+        <br>
+        <br>
+        <div class="container">
+            <div class="typed-out">
+                <pre> I am a Web Developer, Competetive-Programer & Enthuastic learner.
+            <br> I love to do thing that haven't been done yet!<br><br> with mindset to learn and explore more.
+            </pre>
+            </div>
+        </div>
+
+        <pre></pre>
+    </div>
+    <div class="logos">
+        <a href="https://www.facebook.com/mittal.kavya.3" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/mr_kavya1729/" class="fa fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/mittalkavya/" class="fa fa-linkedin"></a>
+    </div>
+    <section id="about" class="abt">
+
+        <div class="me">
+            <img src="phto.jpg">
+        </div>
+        <div class="bhashan">
+            <p1>About</p1>
+            <p11>-Me</p11>
+            <br>
+            <br>
+            <p2>Let me Introduce Myself !</p2>
+            <br>
+            <br>
+            <br>
+            <p3><b><i>Front-end Developer , Competitive Programer & My-Sql Database Manager</i></b></p3>
+            <br>
+            <br>
+            <pre> I hold a degree in B.tech from AKGEC, where I honed my skills.
+                <br> I thrive on problem &approach problem-solving with a creative and analytical mindset<br><br> I believe in the power of collaboration and have a proven track record with many diverse teams.<br><br> Beyond this,you find me in geo-politics,cars etc,as I believe a balanced life leads to better creativity.
+                </pre>
+
+            <div class="resume">
+                <a href="https://onedrive.live.com/?authkey=%21AHYv5i%5FeNHZ2xxQ&cid=51ED89011CEBBB25&id=51ED89011CEBBB25%2116184&parId=root&o=OneUp"
+                    class="attractive-button">Download-Resume</a>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="scroll-section">
+        <!-- Your existing Skills content here -->
+
+        <div class="new-bg">
+            <div class="skills-container">
+                <div class="skil">
+                    <h1><b>Skills</b></h1>
+                </div>
+                <div class="skill">
+                    <span class="skill-name">HTML</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span class="skill-name">CSS</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span class="skill-name">JavaScript</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 60%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span class="skill-name">Java</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span class="skill-name">My-SQl</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;"></div>
+                    </div>
+                </div>
+
+                <!-- Add more skills as needed -->
+            </div>
+        </div>
+    </section>
+    <div class="proj" id="projects">
+        <div class="nam"><b>Projects</b></div>
+        <div class="project1">
+            <a href="https://myne-portfolio.netlify.app/">
+                <h2>Web Development Showcase</h2>
+            </a>
+            <p class="description">A portfolio website showcasing amazing animations & design.</p>
+            <ul class="technologies">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+        <div class="project2">
+            <a href="https://galaxy-ride.netlify.app/">
+                <h2>Tic-Tac-Toe Game</h2>
+            </a>
+            <p class="description">An amazing tic-tac-toe game with cool background & logics.</p>
+            <ul class="technologies">
+                <li>React</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+        <div class="project3">
+            <a href="https://mr-mittal2.netlify.app/">
+                <h2>Flipkart-Clone</h2>
+            </a>
+            <p class="description">An online platform for buying and selling products.</p>
+            <ul class="technologies">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+            </ul>
+        </div>
+    </div>
+    <div class="contact-form" id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm" onsubmit="submitForm(event)">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            </div>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+    <footer>
+        <div class="foot"><b>
+                <p>Copy-Right © Kavya-Mittal Portfolio's.com</p>
+            </b></div>
+    </footer>
+
+</body>
+
+</html>

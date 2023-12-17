@@ -1,0 +1,530 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(47, 50, 48);
+    overflow-x: hidden;
+}
+header{
+    position: fixed;
+    /* margin-bottom: 1000px; */
+}
+.faltu{
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: 'Nunito', sans-serif;
+    color: #f27a39;
+}
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+    top: -57px;
+    left: 550px;
+    
+}
+
+.topnav a {
+    float: left;
+    color: #00b894;
+    text-align: center;
+    padding: 14px 46px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.topnav :hover {
+    color: #f27a39;
+    font-size: 20px;
+}
+
+.cartoon img {
+    height: 290px;
+    border-radius: 320px;
+    position: relative;
+    right: -820px;
+    top: 120px;
+    border-width: 5px;
+    border: .55em solid #00b894;
+    box-shadow: 0 0 60px #00b894;
+}
+
+.para p1 {
+    font-size: 40px;
+}
+
+.para p2 {
+    font-size: 64px;
+}
+
+.typed-out {
+    overflow: hidden;
+    border-right: .15em solid orange;
+    font-size: 1.6rem;
+    width: 0;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+.typed-out {
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 1.1rem;
+    width: 0;
+    animation: typing 4s forwards;
+}
+
+.para {
+    position: relative;
+    top: -200px;
+    left: 40px;
+}
+
+.para p1 {
+    color: #00b894;
+    font-family: 'Nunito', sans-serif;
+}
+
+.para p2 {
+    color: #f27a39;
+    text-shadow: 0 0 10px #00b894;
+    font-family: 'Nunito', sans-serif;
+}
+
+.para pre {
+    color: #00b894;
+    font-family: 'Nunito', sans-serif;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 3px 6px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #881247;
+    color: rgb(255, 255, 255);
+}
+
+.logos {
+    position: relative;
+    top: -240px;
+    left: 845px;
+}
+
+.logos a {
+    border-radius: 15px;
+    /* border-color: #f27a39; */
+    border: .15em solid orange;
+    box-shadow: 0 0 10px orange;
+}
+
+@keyframes moveAnimation {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(15px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.logos {
+    animation: moveAnimation 5s ease infinite;
+}
+
+.cartoon img {
+    animation: moveAnimation 5s ease infinite;
+}
+
+.para {
+    animation: moveAnimation 4s ease infinite;
+}
+
+/* .abt {
+    height: 650px;
+    background-image: url("bk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -55px;
+} */
+.me img{
+    height: 310px;
+    width: 250px;
+    border-radius: 420px;
+    position: relative;
+    right: -140px;
+    top: 90px;
+    border-width: 5px;
+    border: .55em solid #f27a39;
+    box-shadow: 0 0 50px #f27a39;
+}
+.bhashan p1{
+    /* color: rgb(255, 81, 0); */
+    color: #00b894;
+    text-shadow: 0 0 10px #00b894;
+    font-family: 'Nunito', sans-serif;
+    font-size: 60px;
+    
+}
+.bhashan p11{
+    color: whitesmoke;
+    font-family: 'Nunito', sans-serif;
+    font-size: 60px;
+}
+.bhashan{
+    position: relative;
+    right: -495px;
+    top: -230px;
+    
+
+}
+.bhashan p2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    color: #00b894;
+}
+.bhashan p3{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: #00b894;
+    text-shadow: 0 0 10px #00b894;
+}
+.bhashan pre{
+    font-family: 'Nunito', sans-serif;
+    color: #00b894;
+}
+.attractive-button {
+    position: relative;
+    right: -180px;
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color:#00b894;
+    border: 2px solid #f27a39;
+    box-shadow: 0 0 60px #f27a39;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+
+/* Hover effect and animation */
+.attractive-button:hover {
+    background-color: #c5bfb9;
+    color: #ffffff;
+    transform: scale(1.05); /* Scale the button on hover */
+}
+
+.me {
+    animation: moveAnimation 2.5s ease infinite;
+}
+.bhashan {
+    animation: moveAnimation 4s ease infinite;
+}
+
+.skills-container{
+    height: 600px;
+    /* background-color: ; */
+    /* background-image: url("bk.jpg"); */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    margin-top: -55px;
+}
+
+
+
+.skills-container {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.skill {
+    margin-bottom: 20px;
+    
+}
+.skil{
+    font-size: 33px;
+    position: relative;
+    right: -198px;
+    top: 47px;
+    color: #f27a39;
+    text-shadow: 0 0 10px #00b894;
+    margin-bottom: 90px;
+    /* margin-bottom: 1200x; */
+}
+
+.skill-name {
+    display: inline-block;
+    width: 80px;
+    font-weight: bold;
+    color: #f27a39;
+    text-shadow: 0 0 10px #00b894;
+    /* text-shadow: 0 0 90px #f27a39; */
+}
+
+.progress-bar {
+    background-color: #f0f0f0;
+    height: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background-color: #00b894;
+    box-shadow: 0 0 90px #00b894;
+    transition: width 0.5s ease-in-out;
+}
+
+.nam{
+    position: relative;
+    left: 563px;
+    top: -60px;
+    font-size: 45px;
+    font-family: 'Nunito', sans-serif;
+    color: #f27a39;
+    text-shadow: 0 0 10px #00b894;
+}
+.project1{
+    position: relative;
+    top: -50px;
+    left: 20px;
+    animation: moveAnimation 2s ease infinite;
+}
+.project2{
+    position: relative;
+    top: -59px;
+    left: 478px;
+    animation: moveAnimation 3s ease infinite;
+}
+.project3{
+    position: relative;
+    top: -114px;
+    right: -903px;
+    animation: moveAnimation 2s ease infinite;
+
+}
+.proj h2{
+    color: #f27a39;
+    text-shadow: 0 0 10px #f27a39;
+}
+.proj ul li{
+    color: #00b894;
+    text-shadow: 0 0 10px #00b894;
+}
+.proj p{
+    color: #00b894;
+    text-shadow: 0 0 10px #00b894;
+}
+
+.contact-form {
+    width: 590px;
+    padding: 20px;
+    background-color: #383636;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    right: -321px;
+    top: 138px;
+}
+
+/* h2 {
+    color: #4285f4;
+    text-align: center;
+} */
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #666464;
+    border-radius: 5px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #4285f4;
+}
+
+button {
+    background-color:#f27a39;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color:orangered;
+}
+.form-group label{
+    color: #00b894;
+}
+.foot{
+    background-color: #383636;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 180px;
+    color: #00b894;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1400px) {
+    .topnav {
+        left: 250px; 
+    }
+
+    .cartoon img {
+        height: 200px;
+        right: -420px; 
+        top: 80px; 
+    }
+
+    .para {
+        left: 20px; /* Adjust the left position for larger screens */
+    }
+
+    .logos {
+        left: 745px; /* Adjust the left position for larger screens */
+    }
+
+    .me img {
+        right: -50px; /* Adjust the right position for larger screens */
+        top: 40px; /* Adjust the top position for larger screens */
+    }
+
+    .bhashan {
+        right: -295px; /* Adjust the right position for larger screens */
+        top: -120px; /* Adjust the top position for larger screens */
+    }
+
+    .attractive-button {
+        right: -80px; /* Adjust the right position for larger screens */
+    }
+
+    .skills-container {
+        margin-top: -100px; /* Adjust the margin-top for larger screens */
+    }
+
+    .proj h2,
+    .proj ul li,
+    .proj p {
+        font-size: 24px; /* Adjust font size for larger screens */
+    }
+
+    .project1,
+    .project2,
+    .project3 {
+        top: -30px; /* Adjust the top position for larger screens */
+    }
+}
+
+/* Add this media query for mobile devices */
+@media screen and (max-width: 767px) {
+    .topnav {
+        left: 0;
+    }
+
+    .cartoon img {
+        height: 150px;
+        right: 0;
+        top: 80px;
+    }
+
+    .para {
+        left: 10px;
+    }
+
+    .logos {
+        left: 20px;
+    }
+
+    .me img {
+        right: 0;
+        top: 40px;
+    }
+
+    .bhashan {
+        right: 0;
+        top: -120px;
+    }
+
+    .attractive-button {
+        right: 0;
+    }
+
+    .skills-container {
+        margin-top: -50px;
+    }
+
+    .proj h2,
+    .proj ul li,
+    .proj p {
+        font-size: 18px;
+    }
+
+    .project1,
+    .project2,
+    .project3 {
+        top: 0;
+    }
+}
